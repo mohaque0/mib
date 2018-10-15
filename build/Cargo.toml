@@ -1,0 +1,8 @@
+[package]
+name = "build"
+version = "0.1.0"
+authors = ["mohaque"]
+
+[dependencies]
+failure = "^0.1"
+log = "^0.4"
