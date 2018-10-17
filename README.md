@@ -59,4 +59,4 @@ mib
 
 Immediate work still to do:
 * Conan dependencies should be automatically added based on module dependencies.
-* An api for adding plugins should be implemented. The plan that plugins will be executables/scripts that communicate using jsonrpc.
+* An api for adding plugins should be implemented. The plan is that plugins will be executables or scripts that communicate using json (possibly json rpc) with a server process to get module information.
