@@ -38,7 +38,7 @@ mib --help conan
 
 ### Configuration
 
-Mib configuration is specified in a [YAML](http://yaml.org/) placed at the root of your project's source tree called "build.yml".
+Mib configuration is specified in a [YAML](http://yaml.org/) file placed at the root of your project's source tree called "build.yml".
 The file has two sections:
 * "default" which contains default configuration shared between all modules in your project.
 * "modules" which contains a list of module-specific configuration. Each module has:
