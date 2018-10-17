@@ -55,39 +55,8 @@ In the project root run:
 mib
 ```
 
-## Hello, World!
+## TODO
 
-To create a simple hello world program you need 2 files:
-```
-/build.yml
-/src/main.cpp
-```
-
-The build.yml can contain:
-```
-default:
-  config:
-    conan.user: helloworld
-    conan.channel: stable
-    conan.version: 0.1
-
-module:
-  - name: helloworld
-    path: .
-    config:
-      conan.artifact_type: bin
-```
-
-Then creat a simple file in "src/main.cpp":
-```
-#include <stdio.h>
-int main() {
-  printf("Hello, World!\n");
-  return 0;
-}
-```
-
-In the project root run:
-```
-mib
-```
+Immediate work still to do:
+* Conan dependencies should be automatically added based on module dependencies.
+* An api for adding plugins should be implemented. The plan that plugins will be executables/scripts that communicate using jsonrpc.
