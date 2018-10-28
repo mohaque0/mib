@@ -4,7 +4,7 @@ A simple builder for compiling modular C++ projects.
 
 ## Motivation
 
-Mib combines different solutions to build problems and offers (eventually) a plugin architecture for integrating more projects to seamlessly work together.
+Mib combines different solutions to build problems and offers (or should eventually) a plugin architecture for integrating multiple build solutions to seamlessly work together.
 
 The current implementation uses Conan.io for dependency management and CMake for builds. Conan.io has many more packages available in its repositories than its competitors and CMake is a common cross-platform build generator so it should be available on many systems.
 
